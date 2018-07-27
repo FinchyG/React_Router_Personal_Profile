@@ -1,5 +1,82 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'times_sans_serifregular';
+}
+
+h1 {
+  font-family: 'wind_sans_serifregular';
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'wind_sans_serifregular';
+  text-align: center;
+}
+
+p {
+  width: 30em;
+  margin: 2em auto;
+}
+
+#profile_image {
+  display: block;
+  width: 7.5em;
+  height: 20em;
+  margin: auto;
+  box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -webkit-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -moz-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+}
+
+.image_block, .list_block {
+  width: 80%;
+  margin: auto;
+}
+
+figure {
+  display: inline-block;
+  box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -webkit-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -moz-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+}
+
+.interests_image {
+  width: 15em;
+  height: 15em;
+}
+
+.list {
+  width: 25%;
+  margin: auto;
+  background-color: rgb(211, 203, 203);
+  box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -webkit-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -moz-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+}
+
+.link {
+  margin: 2em 2em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(211, 203, 203);
+  padding: 0.5em;
+  box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -webkit-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+  -moz-box-shadow: 0.2em 0.2em 0.2em rgb(90, 95, 102);
+}
+
+@font-face {
+  font-family: 'wind_sans_serifregular';
+  src: url('fonts/wind-webfont.woff2') format('woff2'),
+       url('fonts/wind-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'times_sans_serifregular';
+  src: url('fonts/timess__-webfont.woff2') format('woff2'),
+       url('fonts/timess__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
